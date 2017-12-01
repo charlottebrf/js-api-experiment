@@ -3,16 +3,23 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Display Bank Account Details</title>
+    <title>Display Vehicle Account Details</title>
     <!--Javascript -->
+    <script type="text/javascript" src="../src/vehicle.js"></script>
     <script type="text/javascript" src="./interface.js"></script>
+
+    <!--Tests-->
+    <script type="text/javascript" src="../spec/vehicle.spec.js"></script>
 </head>
 <body>
+<h1>Vehicle Details</h1>
+<section id="vehicles">
+    <ul id="vehicle-list" class="list-group">
+    </ul>
+</section>
 
-<button type="button" onclick="processVehicleRequest()">Request data</button>
-
-<p id="demo"></p>
-
+<section>
+    <p id="vehicle-details">
+</section>
 </body>
-
 </html>
