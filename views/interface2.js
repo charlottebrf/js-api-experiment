@@ -13,7 +13,6 @@ document.addEventListener("DOMContentLoaded", function() {
     let dvlaApiJson = JSON.parse(dvlaApiString);
 
     function createVehicles() {
-        console.log(dvlaApiJson);
         let newVehicle = new Vehicle(dvlaApiJson);
         let vehicleComponent = new VehicleComponent(newVehicle);
         vehicleComponent.render();
