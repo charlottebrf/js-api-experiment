@@ -6,10 +6,4 @@ function vehicle(informationObject) {
     this.taxDetails = informationObject["taxDetails"];
 }
 
-// this.render = function() {
-//     var el = this.setup();
-//     var list = document.getElementById('headline-list');
-//     list.appendChild(el)
-// };
-
 module.exports = vehicle;
