@@ -5,3 +5,9 @@ function Vehicle(informationObject) {
 }
 
 module.exports = Vehicle;
+
+
+
+
+
+

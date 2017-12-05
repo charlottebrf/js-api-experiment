@@ -15,3 +15,12 @@ function VehicleComponent(vehicle) {
 }
 
 module.exports = VehicleComponent;
+
+
+
+
+
+
+
+
+
